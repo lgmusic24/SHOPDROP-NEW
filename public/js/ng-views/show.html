@@ -1,1 +1,77 @@
-<h1>show test</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Thought-Provoking Sage Green Off-Shoulder Top</h1>
+    <img src="https://cdn3.lulus.com/images/product/xlarge/2562122_466822.jpg">
+    <div class="product-description" data-name="Thought-Provoking Sage Green Off-Shoulder">
+        <h3 class="product-name">Thought Provoking Sage Green Off-Shoulder</h3>
+          <p class="product-price">$45.00</p>
+          <form class="add-to-cart" action="cart.html" method="post">
+            <div>
+              <label for="qty-1">Quantity</label>
+              <input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+              <input type="text" name="qty-1" id="qty-1" class="qty" value="1">
+            </div>
+            <p><input type="submit" name="" value="Add-to-cart" class="btn" /></p>
+          </form>
+     </div>
+     <script>
+       var total = parseInt(sessionStorage.getItem("total")
+       var quantity = 1;
+       var updatedTotal = total * quantity;
+       sessionStorage.setItem("total", updatedTotal);
+
+       var cart = {
+         item: "Thought-Provoking Sage green Off-Shoulder ",
+         price:45.00
+         qty: 1
+       };
+
+       var jsonStr=JSON.stringify( cart );
+       sessionStorage.setItem("cart", jsonStr)
+
+       var cartValue = sessionStorage.getItem("cart");
+       var cartObj = JSON.parse(cartValue)
+</script>
+
+
+    <h1>Clark Floral-Print Cold-Shoulder Blouse</h1>
+    <img src="http://images.neimanmarcus.com/ca/1/product_assets/T/V/8/8/K/NMTV88K_mk.jpg">
+    <div class="product-description" data-name="Clark Floral-Print Cold-Shoulder Blouse">
+        <h3 class="product-name">Clark Floral-Print Cold-Shoulder Blouse</h3>
+          <p class="product-price">$220.00</p>
+          <form class="add-to-cart" action="cart.html" method="post">
+            <div>
+              <label for="qty-1">Quantity</label>
+              <input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+              <input type="text" name="qty-1" id="qty-1" class="qty" value="1">
+            </div>
+            <p><input type="submit" name="" value="Add-to-cart" class="btn" /></p>
+          </form>
+     </div>
+     <script>
+       var total = parseInt(sessionStorage.getItem("total")
+       var quantity = 1;
+       var updatedTotal = total * quantity;
+       sessionStorage.setItem("total", updatedTotal);
+
+       var cart = {
+         item: "Thought-Provoking Sage green Off-Shoulder ",
+         price:45.00
+         qty: 1
+       };
+
+       var jsonStr=JSON.stringify( cart );
+       sessionStorage.setItem("cart", jsonStr)
+
+       var cartValue = sessionStorage.getItem("cart");
+       var cartObj = JSON.parse(cartValue)
+
+     </script>
+
+  </body>
+</html>

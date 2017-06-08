@@ -13,9 +13,9 @@ angular.module("shopDrop", [
   '$resource',
   ItemFactoryFunction
 
-]).factory('WelcomeFactory', [
-  '$resource',
-  WelcomeFactoryFunction
+// ]).factory('WelcomeFactory', [
+//   '$resource',
+//   WelcomeFactoryFunction
 
 ]).controller('IndexController', [
   "$state",
@@ -85,26 +85,26 @@ function ItemFactoryFunction($resource) {
   //  this.message = "show test"
   //    console.log("inside the show controller function")
   //    console.log(this.items)
-  //    this.update = function() {
-  //    this.item.$update({name: $stateParams.name})
-  //    console.log("updating!")
-  //  }
-  //  this.destroy = function () {
-  //    this.item.$delete({name: $stateParams.name}).then(function(){
-  //    $state.go("index")
-  //   })
-  //  }
- }
+ //     this.update = function() {
+ //     this.item.$update({name: $stateParams.name})
+ //     console.log("updating!")
+ //   }
+ //   this.destroy = function () {
+ //     this.item.$delete({name: $stateParams.name}).then(function(){
+ //     $state.go("index")
+ //  //   })
+ // })
+}
 
  function ShowControllerFunction($state, $stateParams, ItemFactory) {
    this.item = ItemFactory.get({name: $stateParams.name})
  //   console.log("inside the welcome controller function")
  //   console.log(this.items)
- //   this.newItem = new ItemFactory()
- //   this.create = function () {
- //     console.log('new item')
- //     this.newItem.$save().then(function(item){
- //       $state.go("show", {name: item.name})
- //     })
- //   }
- }
+  //  this.newItem = new ItemFactory()
+  //  this.create = function () {
+  //    console.log('new item')
+  //    this.newItem.$save().then(function(item){
+  //      $state.go("show", {name: item.name})
+  //    })
+  //  }
+ };
