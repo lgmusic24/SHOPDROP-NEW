@@ -1,0 +1,83 @@
+[
+  {
+    "name":"Thought-Provoking Sage Green Off-Shoulder ",
+     "portfolio":"Lulu's",
+     "photo_url":"https://cdn3.lulus.com/images/product/xlarge/2562122_466822.jpg",
+     "price":"$45.00"
+  },
+  {
+    "name":"Clark Floral-Print Cold-Shoulder Blouse",
+     "designer":"Parker",
+     "portfolio":"Neiman Marcus",
+     "photo_url":"http://images.neimanmarcus.com/ca/1/product_assets/T/V/8/8/K/NMTV88K_mk.jpg",
+     "price":"220.OO"
+   },
+  {
+    "name":"Crop Straight Leg",
+     "designer":"New York & Company",
+     "portfolio":"7th Avenue-Signature",
+     "photo_url":"http://s7d9.scene7.com/is/image/NewYorkCompany/productlist2/7th-Avenue-Pant-Crop-Straight-Leg-Signature_03195023_016.jpg",
+     "price":"$46.95"
+  },
+  {
+    "name":"Mia Light Wash Distressed Skinny Jeans",
+     "portfolio":"Lulu's",
+     "photo_url":"https://cdn.lulus.com/images/product/xlarge/2580632_471772.jpg",
+     "price":"$48.00"
+  },
+  {
+    "name":"Floral Print Bermuda Shorts",
+     "portfolio":"ZARA",
+     "photo_url":"https://static.zara.net/photos///2017/V/0/1/p/2811/151/330/2/w/560/2811151330_2_5_1.jpg?ts=1490275568317",
+     "price":"$29.90"
+  },
+  {
+    "name":"LA Hearts LUXE Seamless Harness Cheeky Bikini Bottom",
+     "portfolio":"PACSUN",
+     "photo_url":"https://s-media-cache-ak0.pinimg.com/originals/99/a7/fc/99a7fc487d34c6b70819a277b5db9060.jpg",
+     "price":"$22.95"
+  },
+
+  {
+    "name":"LA Hearts LUXE Seamless Harness Cheeky Bikini Top",
+     "portfolio":"PACSUN",
+     "photo_url":"https://s-media-cache-ak0.pinimg.com/originals/dc/24/0b/dc240bda59d1c3edebad5eebb0016630.jpg",
+     "price":"$22.95"
+  },
+  {
+    "name":"Soft Wash Short Sleeve Micro Print Shirt",
+     "portfolio":"Black Jack",
+     "photo_url":"https://s-media-cache-ak0.pinimg.com/564x/a1/1b/8b/a11b8bb5b60a6",
+     "price":"$29.95"
+  },
+  {
+    "name":"Textured Cutaway Henley",
+     "portfolio":"Express",
+     "photo_url":"https://images.express.com/is/image/expressfashion/0022_04777079_0010_f53?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+     "price":"$34.90"
+  },
+  {
+    "name":"Split Suede Biker Jacket",
+     "portfolio":"ZARA",
+     "photo_url":"https://static.zara.net/photos///2017/V/0/2/p/0706/364/778/2/w/1024/0706364778_2_1_1.jpg?ts=1488457506035",
+     "price":"$199.00"
+  },
+  {
+    "name":"AEO Extreme Flex Chino",
+     "portfolio":"American Eagle",
+     "photo_url":"http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=181242207",
+     "price":"$37.46"
+  },
+  {
+    "name":"Indigo Cascade Rocco Skinny Mens Jean",
+     "portfolio":"True Religion",
+     "photo_url":"https://s7d9.scene7.com/is/image/TrueReligion/mdaj60n22h_dxsm_frt1?$dfs_large$",
+     "price":"$199.00"
+  },
+  {
+    "name":"Rhythm Sundala Swim Trunks",
+     "portfolio":"PACSUN",
+     "photo_url":"http://www.jackssurfboards.com/images/products/Rhythm-Sundala-Trunk-men-s-bottoms-boardshorts-01.jpg",
+     "price":"$62.95"
+  }
+]
