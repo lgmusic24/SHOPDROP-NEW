@@ -39,26 +39,26 @@ app.put("/items/:name", function(req,res){
  });
 
 app.get("/items/:name", (req, res) => {
-  models.Item.findOne(req.params).then(function(item) {
+  Item.findOne(req.params).then(function(item) {
     res.json(item);
   })
 })
 
 
 app.post("/items",(req, res) => {
-  models.Item.create(req.body).then(function(item) {
+  Item.create(req.body).then(function(item) {
     res.json(item);
   })
 })
 
 app.put("/items/:name", (req, res) => {
-  models.Item.findOneAndUpdate({name: req.params.name}, req.body, {new: true}).then(function(item){
+  Item.findOneAndUpdate({name: req.params.name}, req.body, {new: true}).then(function(item){
     res.json(item);
     })
   })
 
 app.delete("/item/:name",(req, res) => {
-  models.Item.findOneAndRemove({name: req.params.name}).then(function(){
+  Item.findOneAndRemove({name: req.params.name}).then(function(){
     res.json({success: true})
   })
 })
