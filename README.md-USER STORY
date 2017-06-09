@@ -1,0 +1,22 @@
+# SHOPDROP-NEW    
+
+
+				User Story 
+
+
+Users-My users are those people who are shopping on the app, as well as myself.
+
+
+What do they want and why?- A simplistic shopping app that is free and easy to use. Users want an app, where they can shop and chat with other users, about the clothes they want, the styles they like and more. Users can upload their profiles with the styles and the types of clothes they are looking for. They can also upload pictures to match the styles they are looking for. This is easy and fun for the user to meet other users and share styles.
+
+MVP
+
+Bronze-A user can click on the list of clothing options that will take them to each separate item page
+	 
+-A user can click on the link item and it will show the checkout information and pricing
+
+Silver-
+           -A user can click an option of sizes and they can choose their size and checkout
+	
+Gold-
+	-A user can add multiple items and it will add the prices together.
